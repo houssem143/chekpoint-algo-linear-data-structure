@@ -1,0 +1,15 @@
+ALGORITHM sum
+VAR
+    i,j,sum:INTEGER;
+    arr1,arr2: ARRAY_OF INTEGER;
+BEGIN
+    sum:=0;
+    FOR i FROM 0 TO arr1.length-1 STEP 1 DO
+        FOR j FROM 0 TO arr2.length STEP 1  DO
+            IF (arr1[i]=arr2[j]) THEN
+                sum:=sum+arr[i];
+            END_IF
+        END_FOR
+    END_FOR
+    sum:=sum*2
+END
